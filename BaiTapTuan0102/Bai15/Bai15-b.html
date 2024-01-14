@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai15b</title>
+    <style>
+        .main {
+            margin: 0 auto;
+            width: 600px;
+        }
+
+        fieldset {
+            background-color: white;
+            box-sizing: border-box;
+            padding-left: 10px;
+        }
+
+        body {
+            background-color: #f1f1f1;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="First Name "> First Name:</label>
+            <input type="text" id="First Name">
+            <br>
+            <label for="Last Name "> Last Name:</label>
+            <input type="text" id="Last Name">
+            <br>
+            <label for="E-mail"> E-mail: </label>
+            <input type="text" id="E-mail">
+        </fieldset>
+        <fieldset>
+            <legend>Competition Question</legend>
+            <span>How tall is the Eiffel Tower in Paris,France?</span>
+            <br>
+            <input type="radio" name="qq" id="584"><label for="584"> 584 ft</label>
+            <br>
+            <input type="radio" name="qq" id="784"><label for="784"> 784 ft</label>
+            <br>
+            <input type="radio" name="qq" id="984"><label for="984"> 984 ft</label>
+            <br>
+            <input type="radio" name="qq" id="1184"><label for="1184"> 1184 ft</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Tiebreaker Question</legend>
+            <span>in 25 words of less, say why would you like to win $10,000</span>
+            <textarea cols="35" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Tiebreaker Question</legend>
+            <input type="submit" value="Enter Competition">
+        </fieldset>
+    </div>
+</body>
+
+</html>

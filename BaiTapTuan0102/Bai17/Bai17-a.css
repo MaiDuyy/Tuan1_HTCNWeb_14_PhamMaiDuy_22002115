@@ -1,0 +1,23 @@
+.div1{
+    margin: 0 auto;
+    background-color: coral;
+    width: 700px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.div2{
+    width: 700px;
+}
+th{
+    
+ 
+    width: 400px;
+    
+}
+th#cl1{
+    padding-left: 110px;
+}
+th#cl2{
+    padding-right: 110px;
+}

@@ -1,0 +1,15 @@
+.div1{
+    margin: 0 auto;
+    width: 500px;
+    height: 600px;
+    background-color: white
+}
+body{
+    background-color: f1f1f1
+    ;
+}
+div{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}

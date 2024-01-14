@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bai17-b.css">
+    <title>Bai17b</title>
+</head>
+
+<body>
+    <div class="div1">
+        <div>
+            <form action="#" method="post">
+                <label for="browser">Browser:</label>
+                <input type="text" name="browser" id="browser" list="tech">
+                <datalist id="tech">
+                    <option value="Edge"> </option>
+                    <option value="Firefox"></option>
+                    <option value="Chrome"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+                </datalist>
+
+        </div>
+        <div>
+            <label for="name">Username:</label>
+            <input type="text" name="name" id="name"> <br>
+        </div>
+
+        <div>
+            <label for="En">Encryption:</label>
+            <select name="en" id="en">
+                <option value="2048">2048(High Grade)</option>
+            </select> <br>
+
+        </div>
+        <div>
+            0 <input type="range" id="En" name="En" min="0" max="100"> 100 <br>
+
+        </div>
+        <div>
+            <input type="text" name="En" id="En" value="50"> 
+        </div>
+
+        <div>
+            <label for="date">Brithday:</label>
+            <input type="date" name="date" id="date">
+        </div>
+
+        <div>
+            <label for="date">Brithday(month and year):</label>
+            <input type="month" name="date" id="date">
+        </div>
+
+        <div>
+            <label for="date">Select a week</label>
+            <input type="week" name="date" id="date">
+        </div>
+
+        <div>
+            <label for="date">Select a time</label>
+            <input type="time" name="date" id="date">
+        </div>
+
+        <div>
+            <label for="date">Brithday:</label>
+            <input type="datetime" name="date" id="date">
+        </div>
+
+        <div>
+            <label for="mail">E-mail :</label>
+            <input type="email" name="mail" id="mail" >
+           
+        </div>
+
+        <div>
+            <label for="search">Search Google:</label>
+            <input type="search" name="phone" id="phone">
+
+        </div>
+
+
+        <div>
+            <label for="phone">Telephone:</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+
+        
+        <div>
+            <label for="home">Add your homepage:</label>
+            <input type="text" name="home" id="home">
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <p><Strong>Node</Strong>: The datalist tag is not supported in Sifari of IE9(and earlier)</p>
+        </form>
+    </div>
+</body>
+
+</html>
