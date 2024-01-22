@@ -1,0 +1,27 @@
+*{
+    margin:  0 auto ;
+    /* padding: 0; */
+   
+
+}
+.wrapper {
+    width: 950px;
+    border: 1px solid black;
+}
+header{
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+h2 {
+    margin: 50px 10px;
+}
+img {
+    margin: 0px 10px 30px 10px;
+}
+h3{
+    margin: 10px 0 10px 0 ;
+}
+.li1{
+    text-decoration: none;
+    list-style-type: none;
+}

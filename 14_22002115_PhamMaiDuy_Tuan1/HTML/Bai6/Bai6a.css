@@ -1,0 +1,52 @@
+
+*{
+    margin: 0 auto;
+}
+.wrapper {
+       border: 1px solid black;
+   width: 800px;
+   background-color: lightskyblue;
+}
+header,h3,p{
+    text-align: center;
+}
+.head{
+    border: 1px solid black;
+    width:200px ;
+    height: 70px;
+    margin-top: 10px;
+margin-left:300;
+border-radius: 10px;
+background-color: cyan;
+font-weight: bold;
+font-size: 20px;
+
+}
+th,td{
+  height:30px;
+}
+.table1 th,.table3 th{
+    width:249;
+}
+.table1,.table2,.table3{
+    text-align: left;
+width: 700;
+}
+.JackSon{
+    border-bottom: 4px solid ;
+    padding-top: 10px;
+}
+#state,#zip{
+    width: 50px;
+}
+.zip{
+   position: absolute;
+   right: 500;
+   top: 223;
+}
+.zip1{
+    position: absolute;
+    right: 441;
+    top: 223;
+ }
+

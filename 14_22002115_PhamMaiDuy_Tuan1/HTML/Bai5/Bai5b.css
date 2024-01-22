@@ -1,0 +1,12 @@
+table,th,td{
+    border: 1px solid black;
+}
+.th1{
+    width: 20px;
+}
+*{
+    margin: 0 auto;
+}
+table{
+    border: 3px solid purple;
+}

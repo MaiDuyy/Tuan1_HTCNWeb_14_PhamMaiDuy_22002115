@@ -1,0 +1,7 @@
+
+.wrapper {
+    position:absolute ;
+    left: 25%;
+    width: 780px;
+    border: 1px solid black;
+}

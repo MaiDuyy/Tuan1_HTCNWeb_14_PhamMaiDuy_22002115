@@ -1,0 +1,27 @@
+*{
+    margin: 0 auto ;
+    padding: 0;
+}
+.wrapper {
+    /* height :600px  ; */
+    width: 900px;
+    border : 1px solid cadetblue; 
+}
+img{
+    padding-bottom: 10px;
+}
+header{
+    margin:  10px ;
+    border-bottom:  1px solid black;
+}
+h1{
+ padding-bottom: 10px;
+}
+main{
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom:  1px solid black;
+}
+footer{
+    margin: 10px ;
+}

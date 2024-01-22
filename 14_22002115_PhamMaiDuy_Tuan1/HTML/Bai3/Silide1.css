@@ -1,0 +1,41 @@
+*{
+    margin: 0 auto;
+
+}
+.wrapper {
+     width: 780px ;
+     border: 1px solid black;
+    
+}
+header{
+    height: 20%;
+    border-bottom: 1px solid black;
+}
+.img1 {
+    height: 100%;
+}
+nav{
+    padding-top: 20px;
+    height: 18%;
+}
+.home {
+ float: left; 
+
+ padding-right: 30px;
+}
+main{
+    height: 50%;
+}
+.anh{
+   margin-left: 1px;
+    float: left;
+    margin-right: 5px;
+}
+.slide{
+    width: 500px;
+    height: 300px;
+    margin: 5px;
+}
+.end{
+    margin:10px;
+}

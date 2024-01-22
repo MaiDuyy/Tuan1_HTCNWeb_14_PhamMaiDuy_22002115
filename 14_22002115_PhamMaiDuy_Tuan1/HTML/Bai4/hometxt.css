@@ -1,0 +1,10 @@
+
+.wrapper{
+    width: 800px;
+    border: 1px solid black;
+    position: absolute;
+    left: 25%;
+}
+main,footer{
+    margin: 10px;
+}
